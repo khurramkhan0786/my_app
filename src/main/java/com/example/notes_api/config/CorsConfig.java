@@ -16,7 +16,7 @@ public class CorsConfig {
          public void addCorsMappings(CorsRegistry r){
              r.addMapping("/**")
                      .allowedOrigins("http://localhost:5173",
-                             "https://YOUR-VERCEL-DOMAIN.vercel.app")
+                             "https://mynote-on5b8gi4x-khurrams-projects-36380d16.vercel.app/")
                      .allowedMethods("GET","POST","PUT","DELETE")
                      .allowCredentials(true)
                      .allowedHeaders("*");
